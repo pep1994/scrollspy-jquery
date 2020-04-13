@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transition: all .4s linear;
+}
+
+  /* .scrolled {
+  background-color: #fff;
+  transition: background-color .7s ease;
+} */
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2 {
+  font-size: 35px;
+  color: #000;
+}
+
+section#about {
+  background-color: darkred;
+
+}
+
+section#team {
+  background-color: blue;
+
+}
+
+section#gallery {
+  background-color: green;
+
+}
+
+section#contact {
+  background-color: orange;
+
+}
+
+.active {
+  background-color: #d5b900;
+}
